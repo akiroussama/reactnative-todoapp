@@ -1,7 +1,8 @@
 import React from 'react'
 import AnimatedCheckbox from 'react-native-checkbox-reanimated'
+import { Text } from 'react-native'
 import {
-  Box, HStack, Pressable,Text,
+  Box, HStack, Pressable,
 } from 'native-base'
 
 interface Props {

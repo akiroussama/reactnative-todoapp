@@ -14,6 +14,8 @@ export default function MainScreen() {
             <Box>
                 <Text>main-screen</Text>
                 <TaskItem isDone={checked}  onToggleCheckbox={handleToggleCheckbox}></TaskItem>
+                <TaskItem isDone={checked}  onToggleCheckbox={handleToggleCheckbox}></TaskItem>
+                <TaskItem isDone={checked}  onToggleCheckbox={handleToggleCheckbox}></TaskItem>
             </Box>
         </Center>
     )
