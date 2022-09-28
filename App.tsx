@@ -1,9 +1,9 @@
 import AppContainer from './src/components/app-container';
-import MainScreen from './src/screens/main-screen';
+import  Navigator  from './src'
 export default function App() {
   return (
     <AppContainer>
-     <MainScreen></MainScreen>
+      <Navigator></Navigator>
     </AppContainer>
   );
 }
