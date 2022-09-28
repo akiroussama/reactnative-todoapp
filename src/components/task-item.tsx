@@ -7,11 +7,12 @@ import {
 
 interface Props {
   isDone: boolean,
-  onToggleCheckbox?:()=> void
+  onToggleCheckbox?:()=> void,
+  subject: string,
 }
 
 const TaskItem = (props: Props) => {
-  const { isDone,  onToggleCheckbox} = props
+  const { isDone,  onToggleCheckbox, subject} = props
 
   return (<HStack>
   <Box width={30} height={30} mr={2}>
@@ -24,7 +25,7 @@ const TaskItem = (props: Props) => {
       />
     </Pressable>
   </Box>
-  <Text>Task item</Text>
+  <Text>{subject}</Text>
   </HStack>)
 
 }
